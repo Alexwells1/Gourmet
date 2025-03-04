@@ -69,7 +69,7 @@ nav #li{
 
 /* Hero Section */
 .hero {
-  background: url(image/pexels-evonics-1058277.jpg);
+  background-image: url(/image/hero.avif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -113,7 +113,7 @@ nav #li{
 }
 
 #container{
-  background: url(image/2.jpg);
+  background: url(/image/body.avif);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(51, 51, 51);
