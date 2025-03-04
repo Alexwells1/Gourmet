@@ -1,0 +1,312 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1,h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* Header */
+header {
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav #li{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(/image/pexels-evonics-1058277.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  text-shadow: 5px 3px rgb(51, 51, 51);
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  text-shadow: 3px 2px rgb(51, 51, 51);
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #cc3030;
+  color: #fff;
+  text-shadow: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.btn:hover {
+  background: #f53434;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#container{
+  background: url(/image/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(51, 51, 51);
+}
+
+/* Menu Section */
+.menu {
+  padding: 60px 20px;
+  text-align: center;
+
+}
+
+ h2{
+  margin-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 8px 20px 4px rgba(0, 0, 0, 0.4);
+  transition: transform ease 1.3s;
+}
+
+.menu-item:hover{
+  transform: translateY(-5px);
+  background: #f0f0f0;
+}
+
+.menu-item img {
+  border-radius: 10px;
+  width: 130px;
+  height: 100px;
+  
+}
+
+
+.menu-item h3 {
+  margin: 10px 0;
+}
+
+.menu-item p {
+  color: #666;
+}
+
+.menu-item span {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+/* About Section */
+.about {
+  padding: 50px 30px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 5px 20px 5px;
+  border-radius: 10px;
+  transition: transform ease 0.3s;
+}
+
+.about:hover{
+  transform: translateY(-5px);
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#about-text{
+  max-width: 400px;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content img {
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Reservation Section */
+.reservation {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#reservation-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#reservation-form button {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu-items, .testimonial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #container{
+    background-repeat: no-repeat;
+    color: rgb(51, 51, 51);
+  }
+
+
+
+
+}
